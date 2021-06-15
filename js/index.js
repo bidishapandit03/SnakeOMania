@@ -51,7 +51,7 @@ function gameEngine()
     {
         eat.play();
         score+=1;
-        if(score%5==0)
+        if(score%4==0)
           speed+=3;
         if(score>highscoreval)
         {
