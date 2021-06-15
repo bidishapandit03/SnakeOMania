@@ -38,6 +38,7 @@ function gameEngine()
     {
         gameover.play();
         bgmusic.pause();
+        speed=5;
         inputDir={x:0,y:0};
         alert("Game Over,Press ok to play again");
         snakearr=[{x:10,y:10}];
